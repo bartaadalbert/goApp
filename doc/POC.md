@@ -17,5 +17,10 @@ If you have any further questions or need additional assistance, please let me k
 #patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}}'
 #port-forward svc/argocd-server -n argocd 8080:443
 #argocd admin initial-password -n argocd
+#if you has problem sudo argocd admin initial-password --kubeconfig /path/to/kubeconfig -n argocd
 PASSWORD IS :giEL2Gp3iD4GPUeP
 LOGIN IS: admin
+
+#setup a vnc client and you can access in your local machine the server 5901 by defoult
+#ssh -L 7979:localhost:5901 -C -N -f root@myserver.com
+#in demo folder you can see the result enabled in firefox browser at localhost 8443 port, which was used in our test
