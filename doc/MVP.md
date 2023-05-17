@@ -4,4 +4,8 @@ The task's outcome has a short demo in the project repository showcasing how app
 
 ## Demo
 
-You can find a video demonstration of the project deployment and synchronization process [here](../demo/demo_video.mp4).
+You can find a video demonstration of the project deployment and synchronization process [here](../demo/ScreenRecording2023-05-17at11.30.02.mp4).
+
+Here's a screenshot of the deployed project:
+
+![ArgoCD Demo](../demo/Screenshot2023-05-17at13.53.05.png)
