@@ -4,15 +4,15 @@ This repository contains a collection of YAML Kubernetes manifests with prompts.
 
 | Name                   | Prompt                  | Description                          | Example                                               |
 |------------------------|-------------------------|--------------------------------------|-------------------------------------------------------|
-| app.yaml               | Create deployment       | Deploy the application to Kubernetes  | [Example](./examples/app.yaml)                          |
-| app-livenessProbe.yaml | Add liveness probe      | Configure liveness probe for the app | [Example](./examples/app-livenessProbe.yaml)            |
-| app-readinessProbe.yaml| Add readiness probe     | Configure readiness probe for the app| [Example](./examples/app-readinessProbe.yaml)           |
-| app-volumeMounts.yaml  | Add volume mounts       | Mount volumes in the application     | [Example](./examples/app-volumeMounts.yaml)             |
-| app-cronjob.yaml       | Create cron job         | Schedule a cron job in Kubernetes    | [Example](./examples/app-cronjob.yaml)                  |
-| app-job-rsync.yaml     | Create job with Rsync   | Run a job with Rsync command         | [Example](./examples/app-job-rsync.yaml)                |
-| app-multicontainer.yaml| Create multi-container  | Define a pod with multiple containers| [Example](./examples/app-multicontainer.yaml)           |
-| app-resources.yaml     | Specify resource limits | Set resource limits for the app       | [Example](./examples/app-resources.yaml)                |
-| app-secret-env.yaml    | Use secrets as env vars | Inject secrets as environment vars   | [Example](./examples/app-secret-env.yaml)               |
+| app.yaml               | Create deployment       | Deploy the application to Kubernetes  | [Example](./yaml/app.yaml)                          |
+| app-livenessProbe.yaml | Add liveness probe      | Configure liveness probe for the app | [Example](./yaml/app-livenessProbe.yaml)            |
+| app-readinessProbe.yaml| Add readiness probe     | Configure readiness probe for the app| [Example](./yaml/app-readinessProbe.yaml)           |
+| app-volumeMounts.yaml  | Add volume mounts       | Mount volumes in the application     | [Example](./yaml/app-volumeMounts.yaml)             |
+| app-cronjob.yaml       | Create cron job         | Schedule a cron job in Kubernetes    | [Example](./yaml/app-cronjob.yaml)                  |
+| app-job-rsync.yaml     | Create job with Rsync   | Run a job with Rsync command         | [Example](./yaml/app-job-rsync.yaml)                |
+| app-multicontainer.yaml| Create multi-container  | Define a pod with multiple containers| [Example](./yaml/app-multicontainer.yaml)           |
+| app-resources.yaml     | Specify resource limits | Set resource limits for the app       | [Example](./yaml/app-resources.yaml)                |
+| app-secret-env.yaml    | Use secrets as env vars | Inject secrets as environment vars   | [Example](./yaml/app-secret-env.yaml)               |
 
 ## Usage
 
