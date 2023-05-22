@@ -9,7 +9,7 @@ This repository contains a collection of YAML Kubernetes manifests with prompts.
 | app-readinessProbe.yaml| Add readiness probe     | Configure readiness probe for the app| [Example](./yaml/app-readinessProbe.yaml)           |
 | app-volumeMounts.yaml  | Add volume mounts       | Mount volumes in the application     | [Example](./yaml/app-volumeMounts.yaml)             |
 | app-cronjob.yaml       | Create cron job         | Schedule a cron job in Kubernetes    | [Example](./yaml/app-cronjob.yaml)                  |
-| app-job-rsync.yaml     | Create job with Rsync   | Run a job with Rsync command         | [Example](./yaml/app-job-rsync.yaml)                |
+| app-job.yaml     | Create job   | Run a job         | [Example](./yaml/app-job.yaml)                |
 | app-multicontainer.yaml| Create multi-container  | Define a pod with multiple containers| [Example](./yaml/app-multicontainer.yaml)           |
 | app-resources.yaml     | Specify resource limits | Set resource limits for the app       | [Example](./yaml/app-resources.yaml)                |
 | app-secret-env.yaml    | Use secrets as env vars | Inject secrets as environment vars   | [Example](./yaml/app-secret-env.yaml)               |
