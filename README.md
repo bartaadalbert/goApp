@@ -2,7 +2,7 @@
 
 This repository contains a collection of YAML Kubernetes manifests with prompts. These prompts can be used with the `kubectl-ai` plugin to generate the corresponding manifest files. Below is a list of the available examples:
 
-| Name                   | Prompt                  | Description                          | Example                                               |
+| NAME                   | PROMPT                  | DESCRIPTION                          | EXAMPLE                                               |
 |------------------------|-------------------------|--------------------------------------|-------------------------------------------------------|
 | app.yaml               | Create deployment       | Deploy the application to Kubernetes  | [Example](./yaml/app.yaml)                          |
 | app-livenessProbe.yaml | Add liveness probe      | Configure liveness probe for the app | [Example](./yaml/app-livenessProbe.yaml)            |
