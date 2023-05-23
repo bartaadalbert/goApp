@@ -4,7 +4,7 @@ The task's outcome has a short demo in the project repository showcasing how app
 
 ## Demo
 
-You can find a video demonstration of the project deployment and synchronization process [here](../demo/ScreenRecording2023-05-17at11.30.02.mp4).
+You can find a video demonstration of the project deployment and synchronization process [here](../demo/argogif.gif).
 
 Here's a screenshot of the deployed project:
 
