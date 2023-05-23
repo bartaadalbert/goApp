@@ -26,15 +26,15 @@ To use these prompts, follow these steps:
 
 4. Run the `kubectl ai` command followed by the desired prompt. For example, to create a deployment, you can use the following command:
 ... 
-    kubectl ai Create deployment
-    kubectl ai Add liveness probe
-    kubectl ai Add readiness probe
-    kubectl ai Add volume mounts
-    kubectl ai Create cron job
-    kubectl ai Create job
-    kubectl ai Create multi-container
-    kubectl ai Specify resource limits
-    kubectl ai Use secrets as env vars
+    kubectl ai Create deployment<br>
+    kubectl ai Add liveness probe<br>
+    kubectl ai Add readiness probe<br>
+    kubectl ai Add volume mounts<br>
+    kubectl ai Create cron job<br>
+    kubectl ai Create job<br>
+    kubectl ai Create multi-container<br>
+    kubectl ai Specify resource limits<br>
+    kubectl ai Use secrets as env vars<br>
 ...
 
 5. Follow the prompts and provide the required information.
