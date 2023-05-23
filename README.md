@@ -25,6 +25,17 @@ To use these prompts, follow these steps:
 3. Navigate to the directory where you want to generate the YAML manifest.
 
 4. Run the `kubectl ai` command followed by the desired prompt. For example, to create a deployment, you can use the following command:
+... 
+    kubectl ai Create deployment
+    kubectl ai Add liveness probe
+    kubectl ai Add readiness probe
+    kubectl ai Add volume mounts
+    kubectl ai Create cron job
+    kubectl ai Create job
+    kubectl ai Create multi-container
+    kubectl ai Specify resource limits
+    kubectl ai Use secrets as env vars
+...
 
 5. Follow the prompts and provide the required information.
 

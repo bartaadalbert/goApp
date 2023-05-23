@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: my-container
-    image: nginx
+    image: my-image
     volumeMounts:
     - name: my-volume
       mountPath: /data

@@ -5,10 +5,10 @@ metadata:
 spec:
   containers:
   - name: my-container
-    image: my-image
+    image: nginx
     readinessProbe:
       httpGet:
-        path: /healthz
-        port: 8080
+        path: /
+        port: 80
       initialDelaySeconds: 5
       periodSeconds: 10

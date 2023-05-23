@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: my-pod
+  name: liveness-probe-example
 spec:
   containers:
-  - name: my-container
-    image: my-image
+  - name: liveness
+    image: liveness
     livenessProbe:
       httpGet:
         path: /healthz
         port: 8080
       initialDelaySeconds: 5
-      periodSeconds: 10
+      periodSeconds: 5

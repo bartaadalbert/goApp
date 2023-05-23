@@ -9,7 +9,7 @@ spec:
       template:
         spec:
           containers:
-          - name: my-cron-job
+          - name: my-job
             image: busybox
             args:
             - /bin/sh
